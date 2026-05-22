@@ -1,0 +1,41 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::       (v3.3.1-SNAPSHOT)
+
+2026-05-22T14:27:21.198-06:00  INFO 104532 --- [invex.bnpl] [           main] com.invex.rest.bnpl.Application          : Starting Application using Java 21.0.6 with PID 104532 (C:\Desarrollos\invex.bnpl.repo-main\target\classes started by djacl in C:\Desarrollos\invex.bnpl.repo-main)
+2026-05-22T14:27:21.200-06:00  INFO 104532 --- [invex.bnpl] [           main] com.invex.rest.bnpl.Application          : No active profile set, falling back to 1 default profile: "default"
+2026-05-22T14:27:21.779-06:00  INFO 104532 --- [invex.bnpl] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-22T14:27:21.839-06:00  INFO 104532 --- [invex.bnpl] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+2026-05-22T14:27:22.345-06:00  INFO 104532 --- [invex.bnpl] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-22T14:27:22.356-06:00  INFO 104532 --- [invex.bnpl] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-22T14:27:22.356-06:00  INFO 104532 --- [invex.bnpl] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2026-05-22T14:27:22.407-06:00  INFO 104532 --- [invex.bnpl] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-22T14:27:22.407-06:00  INFO 104532 --- [invex.bnpl] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1164 ms
+2026-05-22T14:27:22.566-06:00  INFO 104532 --- [invex.bnpl] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-22T14:27:22.615-06:00  INFO 104532 --- [invex.bnpl] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2026-05-22T14:27:22.639-06:00  INFO 104532 --- [invex.bnpl] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-22T14:27:22.874-06:00  INFO 104532 --- [invex.bnpl] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-22T14:27:22.896-06:00  INFO 104532 --- [invex.bnpl] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-22T14:27:23.091-06:00  INFO 104532 --- [invex.bnpl] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:/data/demo user=SA
+2026-05-22T14:27:23.092-06:00  INFO 104532 --- [invex.bnpl] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-22T14:27:23.112-06:00  WARN 104532 --- [invex.bnpl] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-22T14:27:23.670-06:00  INFO 104532 --- [invex.bnpl] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-22T14:27:23.703-06:00  INFO 104532 --- [invex.bnpl] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-22T14:27:24.079-06:00  WARN 104532 --- [invex.bnpl] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-22T14:27:24.422-06:00  INFO 104532 --- [invex.bnpl] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-22T14:27:24.431-06:00  INFO 104532 --- [invex.bnpl] [           main] com.invex.rest.bnpl.Application          : Started Application in 3.589 seconds (process running for 3.932)
+2026-05-22T14:39:45.124-06:00  INFO 104532 --- [invex.bnpl] [nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-22T14:39:45.124-06:00  INFO 104532 --- [invex.bnpl] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-22T14:39:45.127-06:00  INFO 104532 --- [invex.bnpl] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-22T14:39:45.197-06:00  INFO 104532 --- [invex.bnpl] [nio-8080-exec-2] c.i.r.bnpl.service.EmployeeServiceImpl   : Get All Employees
+2026-05-22T14:40:01.719-06:00  INFO 104532 --- [invex.bnpl] [nio-8080-exec-4] c.i.r.b.listener.EmployeeEventListener   : Employee Employee{idEmployee=129, name='Nemo} created.
+2026-05-22T14:40:14.848-06:00  INFO 104532 --- [invex.bnpl] [nio-8080-exec-5] c.i.r.bnpl.service.EmployeeServiceImpl   : Get Employee Lucas
+2026-05-22T14:40:23.780-06:00  INFO 104532 --- [invex.bnpl] [nio-8080-exec-8] c.i.r.bnpl.service.EmployeeServiceImpl   : Get Employee Nemo
+2026-05-22T14:40:47.918-06:00  INFO 104532 --- [invex.bnpl] [nio-8080-exec-7] c.i.r.bnpl.service.EmployeeServiceImpl   : Search Employeenull
+2026-05-22T14:40:47.923-06:00  INFO 104532 --- [invex.bnpl] [nio-8080-exec-7] c.i.r.bnpl.service.EmployeeServiceImpl   : Id founded upgrade 1
