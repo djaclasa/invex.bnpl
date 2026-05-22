@@ -1,0 +1,188 @@
+{
+  "info": {
+    "_postman_id": "17db0a61-d1fe-4349-a06f-10ecc2779d7a",
+    "name": "invexapp",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "55106712",
+    "_collection_link": "https://go.postman.co/collection/55106712-17db0a61-d1fe-4349-a06f-10ecc2779d7a?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Employees",
+      "item": [
+        {
+          "name": "Employees",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/invexapp/Employees",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "invexapp",
+                "Employees"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "deleteEmployee",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/invexapp/deleteEmployee/2",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "invexapp",
+                "deleteEmployee",
+                "2"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "addEmployee",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"Juan\",\r\n    \"secondName\": \"Perez\",\r\n    \"lastName\": \"Lopez\",\r\n    \"secondLastName\": \"Jose\",\r\n    \"age\": 24,\r\n    \"sex\": \"H\",\r\n    \"birthDate\": \"01/01/2005\",\r\n    \"position\": \"Asesor Legal\",\r\n    \"active\": false\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/invexapp/addEmployee",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "invexapp",
+                "addEmployee"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Employee",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/invexapp/Employee/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "invexapp",
+                "Employee",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "EmployeeName",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/invexapp/Employees/?name=Lucas",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "invexapp",
+                "Employees",
+                ""
+              ],
+              "query": [
+                {
+                  "key": "name",
+                  "value": "Lucas"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "updateEmployee",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": " {\r\n    \"name\": \"Memo\",\r\n    \"secondName\": \"Guillermo\",\r\n    \"lastName\": \"Salcido\",\r\n    \"secondLastName\": \"Perez\",\r\n    \"age\": 24,\r\n    \"sex\": \"H\",\r\n    \"birthDate\": \"01/01/2005\",\r\n    \"position\": \"Abogado\",\r\n    \"active\": true\r\n    }",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/invexapp/Employee/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "invexapp",
+                "Employee",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
